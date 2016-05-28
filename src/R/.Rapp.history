@@ -1,0 +1,72 @@
+exit()
+q()
+kmeans
+C_kmeans_Lloyd
+install.packages("MSBVAR", dependencies=TRUe)
+install.packages("MSBVAR", dependencies=TRUE)
+source("causallinks_bi.R")
+tmpdata
+tmpdata[[1]] <- 1
+source("causallinks_bi.R")
+source("causallinks_bi.R")
+source("causallinks_bi.R")
+source("causallinks_bi.R")
+length(tmpdata)
+Q
+source("causallinks_bi.R")
+n
+n
+p filestr
+filestr
+Q
+source("causallinks_bi.R")
+source("causallinks_bi.R")
+filestr
+n
+n
+file.exists("../../tsdataall/tsdata/2001/chn-fra-2001.csv")
+getwd()
+file.exists("../tsdataall/tsdata/2001/chn-fra-2001.csv")
+Q
+source("causallinks_bi.R")
+granger.test
+source("causallinks_bi.R")
+source("causallinks_bi.R")
+source("causallinks_bi.R")
+bilinks[["KOR"]]
+bilinks[["KOR2"]]
+source("causallinks_bi.R")
+tmpc2
+j
+k
+tmpc[[j]]
+tmpc[[k]]
+gres
+c
+gres
+tmpc[[j]]
+tmpc[[k]]
+Q
+install.packages("pcalg", dependencies=TRUE)
+install.packages("SMPracticals", dependencies=TRUE)
+data(mathmarks)
+library(pcalg)
+require(pcalg)
+install.packages("graph", dependencies=TRUE)
+require(SMPracticals)
+data(mathmarks)
+summary(mathmarks)
+source("https://bioconductor.org/biocLite.R")
+biocLite("graph")
+biocLite("RBGL")
+install.packages("pcalg", dependencies=TRUE)
+biocLite("Rgraphviz")
+install.packages("pcalg", dependencies=TRUE)
+suffStat <- list(C=cor(mathmarks),n=nrow(mathmarks))
+library(pcalg)
+library(SMPracticals)
+pc.fit <- pc(suffStat, indepTest=gaussCItest, p=ncol(mathmarks),alpha=0.005)
+library(Rgraphviz)
+plot(pc.fit,labels=colnames(mathmarks),main="Inferred DAG for mathmarks")
+cor(mathmarks)
+mathmarks

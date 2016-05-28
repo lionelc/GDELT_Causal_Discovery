@@ -1,0 +1,556 @@
+$`CHN-FRA`
+[1] "DEU" "GBR" "EUR" "RUS" "USA"
+
+$`CHN-RUS`
+ [1] "PRK" "GBR" "EUR" "USA" "KOR" "JPN" "AFG" "FRA" "KAZ" "IRQ" "IRN"
+
+$`CHN-GBR`
+[1] "PAK" "DEU" "EUR" "RUS" "USA" "FRA" "IRQ"
+
+$`CHN-USA`
+[1] "PAK" "VNM" "PRK" "EUR" "RUS" "KOR" "JPN" "DEU"
+
+$`USA-CHN`
+[1] "MYS"
+
+$`CHN-JPN`
+[1] "PRK" "RUS" "USA" "KOR"
+
+$`JPN-CHN`
+[1] "CAN" "PHL"
+
+$`CHN-KOR`
+[1] "RUS" "USA" "JPN"
+
+$`CHN-DEU`
+[1] "GBR" "EUR" "RUS" "USA" "AFG" "FRA" "IRQ"
+
+$`CHN-BRA`
+[1] "USA"
+
+$`CHN-PRK`
+[1] "USA" "KOR" "JPN" "RUS"
+
+$`CHN-AFG`
+[1] "PAK" "USA"
+
+$`CHN-IRN`
+[1] "PAK" "GBR" "RUS" "USA"
+
+$`CHN-IRQ`
+[1] "GBR" "RUS" "USA" "PAK" "JPN"
+
+$`CHN-SAU`
+[1] "USA" "IRQ"
+
+$`CHN-SYR`
+[1] "USA" "IRQ"
+
+$`CHN-ISR`
+[1] "USA" "IRQ"
+
+$`CHN-PSE`
+[1] "USA" "IRQ"
+
+$`PSE-CHN`
+[1] "FRA" "IRN" "EUR"
+
+$`CHN-EUR`
+[1] "DEU" "GBR" "FRA" "RUS" "USA"
+
+$`EUR-CHN`
+[1] "AFR"
+
+$`FRA-RUS`
+ [1] "CHN" "DEU" "GBR" "ITA" "PSE" "ISR" "EUR" "USA" "IRQ" "JPN" "AFG" "IRN"
+
+$`FRA-GBR`
+[1] "CHN" "DEU" "ISR" "EUR" "RUS" "USA" "ESP" "AFG"
+
+$`GBR-FRA`
+[1] "BEL"
+
+$`FRA-USA`
+ [1] "LBN" "CHN" "DEU" "GBR" "ITA" "PSE" "ISR" "EUR" "RUS" "ESP" "PAK" "AFR"
+
+$`FRA-JPN`
+[1] "GBR" "RUS" "USA" "IRQ"
+
+$`FRA-KOR`
+[1] "CHN" "RUS" "USA" "IRQ" "JPN"
+
+$`FRA-DEU`
+[1] "GBR" "ITA" "EUR" "RUS" "USA" "AFG" "IRQ"
+
+$`FRA-BRA`
+[1] "USA"
+
+$`FRA-PRK`
+[1] "RUS" "USA" "JPN"
+
+$`FRA-AFG`
+[1] "USA" "DEU" "ITA"
+
+$`FRA-IRN`
+[1] "GBR" "RUS" "USA" "IRQ" "AFG" "EUR"
+
+$`IRN-FRA`
+[1] "CHN"
+
+$`FRA-IRQ`
+[1] "GBR" "ISR" "RUS" "USA" "IRN" "ITA"
+
+$`FRA-SAU`
+[1] "USA" "IRQ"
+
+$`SAU-FRA`
+[1] "RUS"
+
+$`FRA-SYR`
+[1] "PSE" "USA" "IRQ" "IRN"
+
+$`FRA-ISR`
+[1] "LBN" "EUR" "RUS" "USA"
+
+$`ISR-FRA`
+[1] "ITA"
+
+$`FRA-PSE`
+[1] "USA" "IRQ"
+
+$`PSE-FRA`
+[1] "SYR" "EUR"
+
+$`FRA-EUR`
+[1] "DEU" "GBR" "ISR" "RUS" "USA" "BEL"
+
+$`RUS-GBR`
+[1] "CHN" "DEU" "ISR" "FRA" "EUR" "USA" "IRQ" "IRN" "AFG"
+
+$`RUS-USA`
+ [1] "EGY" "CHN" "DEU" "ITA" "AFG" "FRA" "EUR" "TUR" "UKR" "KOR" "IRN" "JPN"
+[13] "PAK"
+
+$`RUS-JPN`
+[1] "PRK" "CHN" "USA" "KOR"
+
+$`RUS-KOR`
+[1] "CHN" "USA" "JPN"
+
+$`RUS-DEU`
+[1] "GBR" "ISR" "EUR" "TUR" "USA" "IRQ"
+
+$`DEU-RUS`
+[1] "CAN"
+
+$`RUS-BRA`
+[1] "USA"
+
+$`RUS-PRK`
+[1] "CHN" "USA" "KOR" "JPN"
+
+$`RUS-AFG`
+[1] "PAK" "IRN" "DEU" "USA"
+
+$`AFG-RUS`
+[1] "SAU"
+
+$`RUS-IRN`
+[1] "DEU" "GBR" "TUR" "USA" "PAK"
+
+$`RUS-IRQ`
+[1] "EGY" "GBR" "TUR" "USA" "IRN" "SYR" "JPN"
+
+$`RUS-SAU`
+[1] "EGY" "SYR" "USA" "IRQ"
+
+$`RUS-SYR`
+[1] "USA" "IRQ"
+
+$`RUS-ISR`
+[1] "EGY" "USA" "IRN"
+
+$`RUS-PSE`
+[1] "EGY" "USA"
+
+$`PSE-RUS`
+[1] "SAU" "EUR"
+
+$`RUS-EUR`
+[1] "DEU" "GBR" "ISR" "FRA" "TUR" "USA" "WST"
+
+$`GBR-USA`
+ [1] "CHN" "DEU" "ITA" "AFR" "FRA" "EUR" "RUS" "IRN" "PAK" "NGA" "AUS" "KEN"
+
+$`GBR-JPN`
+[1] "CHN" "RUS" "USA" "AFG" "IRQ"
+
+$`GBR-KOR`
+[1] "CHN" "RUS" "USA" "JPN"
+
+$`GBR-DEU`
+[1] "FRA" "EUR" "RUS" "USA" "IRN" "TUR" "IRQ"
+
+$`DEU-GBR`
+[1] "EGY"
+
+$`GBR-BRA`
+[1] "USA"
+
+$`GBR-PRK`
+[1] "CHN" "RUS" "USA" "JPN"
+
+$`GBR-AFG`
+[1] "USA" "IRN" "PAK" "DEU"
+
+$`GBR-IRN`
+[1] "ISR" "RUS" "USA" "IRQ" "AFG" "EUR"
+
+$`GBR-IRQ`
+[1] "ISR" "RUS" "USA" "IRN" "EGY" "DEU" "ITA"
+
+$`GBR-SAU`
+[1] "USA" "IRQ" "EGY"
+
+$`SAU-GBR`
+[1] "RUS"
+
+$`GBR-SYR`
+[1] "ISR" "USA" "IRQ" "PSE"
+
+$`SYR-GBR`
+[1] "RUS"
+
+$`GBR-ISR`
+[1] "EUR" "USA" "IRN"
+
+$`ISR-GBR`
+[1] "ITA"
+
+$`GBR-PSE`
+[1] "USA" "EGY"
+
+$`PSE-GBR`
+[1] "IRN"
+
+$`GBR-EUR`
+[1] "CHN" "ISR" "FRA" "RUS" "USA" "PSE"
+
+$`EUR-GBR`
+[1] "TUR"
+
+$`USA-JPN`
+[1] "PRK" "CHN" "RUS" "KOR" "AFG" "IRQ"
+
+$`JPN-USA`
+[1] "CAN"
+
+$`USA-KOR`
+[1] "PRK" "CHN" "RUS" "JPN"
+
+$`USA-DEU`
+[1] "GBR" "ITA" "FRA" "EUR" "TUR" "RUS" "IRN" "ESP"
+
+$`DEU-USA`
+[1] "EGY" "CAN"
+
+$`USA-BRA`
+[1] "ARG"
+
+$`USA-PRK`
+[1] "CHN" "RUS" "KOR" "JPN"
+
+$`USA-AFG`
+[1] "PAK" "IRN" "SAU" "DEU"
+
+$`USA-IRN`
+ [1] "EGY" "PAK" "LBN" "SYR" "DEU" "GBR" "AFG" "ISR" "RUS" "IRQ" "EUR"
+
+$`IRN-USA`
+[1] "KWT"
+
+$`USA-IRQ`
+ [1] "EGY" "JOR" "SAU" "SYR" "GBR" "ISR" "TUR" "RUS" "IRN" "ITA" "JPN"
+
+$`USA-SAU`
+[1] "EGY" "JOR" "YEM" "ISR" "IRQ" "KWT"
+
+$`USA-SYR`
+[1] "EGY" "PSE" "IRQ" "ISR"
+
+$`USA-ISR`
+[1] "EGY" "LBN" "EUR" "RUS" "IRN"
+
+$`USA-PSE`
+[1] "EGY"
+
+$`PSE-USA`
+[1] "RUS" "IRN" "EUR"
+
+$`USA-EUR`
+[1] "GBR" "ISR" "FRA" "TUR" "RUS" "IRN"
+
+$`EUR-USA`
+[1] "AZE"
+
+$`JPN-KOR`
+[1] "PRK" "CHN" "RUS" "USA"
+
+$`JPN-DEU`
+[1] "RUS" "USA" "IRN" "AFG" "EUR" "IRQ"
+
+$`JPN-BRA`
+[1] "USA"
+
+$`JPN-PRK`
+[1] "CHN" "RUS" "USA" "KOR"
+
+$`JPN-AFG`
+[1] "USA" "IRN" "IRQ"
+
+$`JPN-IRN`
+[1] "GBR" "RUS" "USA" "AFG" "EUR"
+
+$`IRN-JPN`
+[1] "CHN"
+
+$`JPN-IRQ`
+[1] "GBR" "RUS" "USA" "IRN"
+
+$`JPN-SAU`
+[1] "USA" "AFG" "IRQ"
+
+$`JPN-SYR`
+[1] "USA" "IRN" "IRQ"
+
+$`JPN-ISR`
+[1] "RUS" "USA" "IRQ"
+
+$`JPN-PSE`
+[1] "USA"
+
+$`PSE-JPN`
+[1] "RUS" "EUR"
+
+$`JPN-EUR`
+[1] "GBR" "RUS" "USA"
+
+$`KOR-DEU`
+[1] "USA" "IRQ"
+
+$`KOR-BRA`
+[1] "USA"
+
+$`KOR-PRK`
+[1] "CHN" "RUS" "USA" "JPN"
+
+$`KOR-AFG`
+[1] "USA"
+
+$`KOR-IRN`
+[1] "RUS" "USA"
+
+$`KOR-IRQ`
+[1] "RUS" "USA" "JPN"
+
+$`KOR-SAU`
+[1] "USA"
+
+$`KOR-SYR`
+[1] "RUS" "USA" "IRQ"
+
+$`KOR-ISR`
+[1] "RUS" "USA"
+
+$`KOR-PSE`
+[1] "USA"
+
+$`KOR-EUR`
+[1] "RUS" "USA"
+
+$`DEU-BRA`
+[1] "USA"
+
+$`DEU-PRK`
+[1] "RUS" "USA"
+
+$`DEU-AFG`
+[1] "IRN"
+
+$`DEU-IRN`
+[1] "GBR" "FRA" "TUR" "RUS" "USA" "AFG" "EUR" "IRQ"
+
+$`DEU-IRQ`
+[1] "GBR" "TUR" "RUS" "USA" "IRN" "AFG"
+
+$`DEU-SAU`
+[1] "USA" "IRQ"
+
+$`DEU-SYR`
+[1] "USA" "ISR" "IRQ"
+
+$`SYR-DEU`
+[1] "RUS"
+
+$`DEU-ISR`
+[1] "RUS" "USA" "IRN" "IRQ"
+
+$`DEU-PSE`
+[1] "USA" "IRQ"
+
+$`PSE-DEU`
+[1] "RUS"
+
+$`DEU-EUR`
+[1] "CHN" "GBR" "CZE" "FRA" "RUS" "USA"
+
+$`BRA-IRN`
+[1] "USA"
+
+$`BRA-SAU`
+[1] "USA"
+
+$`BRA-SYR`
+[1] "USA"
+
+$`BRA-ISR`
+[1] "USA"
+
+$`BRA-PSE`
+[1] "USA"
+
+$`BRA-EUR`
+[1] "USA"
+
+$`PRK-AFG`
+[1] "RUS" "USA" "JPN"
+
+$`PRK-IRN`
+[1] "RUS" "USA"
+
+$`IRN-PRK`
+[1] "JPN"
+
+$`PRK-IRQ`
+[1] "RUS" "USA" "JPN"
+
+$`PRK-SAU`
+[1] "USA"
+
+$`PRK-SYR`
+[1] "USA"
+
+$`PRK-ISR`
+[1] "USA"
+
+$`PRK-PSE`
+[1] "USA"
+
+$`PSE-PRK`
+[1] "RUS"
+
+$`PRK-EUR`
+[1] "CHN" "RUS" "USA"
+
+$`AFG-IRN`
+[1] "PAK" "RUS" "USA" "DEU" "IRQ"
+
+$`AFG-IRQ`
+[1] "RUS" "IRN" "GBR" "TUR" "USA"
+
+$`AFG-SAU`
+[1] "USA" "IRQ"
+
+$`AFG-SYR`
+[1] "USA" "IRQ"
+
+$`SYR-AFG`
+[1] "RUS"
+
+$`AFG-ISR`
+[1] "RUS" "USA" "IRN" "IRQ"
+
+$`AFG-PSE`
+[1] "USA" "IRQ"
+
+$`AFG-EUR`
+[1] "RUS" "GBR" "USA"
+
+$`IRN-IRQ`
+[1] "SAU" "SYR" "GBR" "ISR" "TUR" "RUS" "USA" "EGY" "PAK"
+
+$`IRQ-IRN`
+[1] "CHN"
+
+$`IRN-SAU`
+[1] "PSE" "USA" "KWT" "IRQ"
+
+$`IRN-SYR`
+[1] "LBN" "PSE" "ISR" "USA" "IRQ" "EGY" "JOR"
+
+$`IRN-ISR`
+[1] "EGY" "SYR" "RUS" "USA" "EUR"
+
+$`IRN-PSE`
+[1] "EGY" "USA" "JOR"
+
+$`PSE-IRN`
+[1] "SAU" "EUR"
+
+$`IRN-EUR`
+[1] "DEU" "GBR" "ISR" "TUR" "RUS" "USA" "PSE" "FRA"
+
+$`EUR-IRN`
+[1] "CHN"
+
+$`IRQ-SAU`
+[1] "EGY" "JOR" "USA"
+
+$`IRQ-SYR`
+[1] "EGY" "PSE" "ISR" "USA" "IRN" "LBN"
+
+$`SYR-IRQ`
+[1] "RUS"
+
+$`IRQ-ISR`
+[1] "JOR" "SYR" "RUS" "USA" "IRN" "LBN"
+
+$`IRQ-PSE`
+[1] "EGY" "ISR" "USA"
+
+$`IRQ-EUR`
+[1] "GBR" "ISR" "TUR" "RUS" "USA" "IRN" "FRA"
+
+$`SAU-SYR`
+[1] "EGY" "JOR" "PSE" "ISR" "USA" "IRQ"
+
+$`SAU-ISR`
+[1] "EGY" "JOR" "LBN" "SYR" "USA" "IRQ"
+
+$`SAU-PSE`
+[1] "EGY" "JOR" "USA" "IRQ"
+
+$`PSE-SAU`
+[1] "IRN"
+
+$`SAU-EUR`
+[1] "ISR" "USA" "GBR"
+
+$`SYR-ISR`
+[1] "EGY" "JOR" "LBN" "USA" "IRN" "TUR"
+
+$`SYR-PSE`
+[1] "EGY" "JOR" "LBN" "USA"
+
+$`SYR-EUR`
+[1] "ISR" "USA" "TUR"
+
+$`ISR-PSE`
+[1] "EGY" "JOR" "RUS" "USA" "GBR"
+
+$`ISR-EUR`
+[1] "FRA" "TUR" "RUS" "USA" "GBR" "IRQ"
+
+$`PSE-EUR`
+[1] "USA"
+
