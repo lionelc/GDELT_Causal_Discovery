@@ -2,6 +2,4 @@
 
 This code can generate causal discovery results over GDELT data (gdeltproject.org) .
 
-The python code is used for data preprocessing from GDELT raw data. 
-
-After data is formatted to dyadic events counts, the R code is used for analysis.
+Updated (02/22/2019): it now includes additional experiments in exploitation with PC algorithm and validation with sentimental analysis against Wikipedia bilateral relation pages.
