@@ -6,7 +6,7 @@ def main():
 
     for yy in range(1998,2014):
         ystr = str(yy)
-        os.system("mkdir tsdata\\"+ystr)
+        os.system("mkdir tsdata/"+ystr)
         os.system("python loc_ts_gen_all.py "+ystr)           
 
 if __name__ == '__main__':

@@ -1,6 +1,5 @@
 import sys, os
 
-maindir = "/cygdrive/c/GDELT/data/"
 
 def nextFile(ss):
    y = int(ss[0:4])
@@ -22,9 +21,9 @@ def main():
     p = start
     while p != end:
         os.system("wget http://data.gdeltproject.org/events/"+p+".zip")
+        os.system("unzip " + p + ".zip")
         p = nextFile(p)
         print p
-    return
 
 if __name__ == "__main__":
     main()

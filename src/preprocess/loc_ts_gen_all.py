@@ -29,9 +29,9 @@ def main():
     mindate = date(2025, 1,1)
     maxdate = date(1970, 1, 1)
 
-    predir = "tsdatatypes\\"
+    predir = "tsdata/"
 
-    fdir = "..\\data\\"+sys.argv[1]+"\\"
+    fdir = "../data/"+sys.argv[1]+"/"
 
     for filename in os.listdir(fdir):
         f = open(fdir+filename, "r")
@@ -56,16 +56,11 @@ def main():
                 if not key1 in filedict.keys():
                     filedict[key1] = dict()      
                 if not sp[1] in filedict[key1].keys():
-                    filedict[key1][sp[1]] = [0,0,0,0,0,0]           
-                filedict[key1][sp[1]][0] += 1
-                try:
-                    qclass = int(sp[29])
-                    filedict[key1][sp[1]][qclass] += 1
-                    filedict[key1][sp[1]][5] += int(sp[31])
-                except:
-                    print "format exception on filename "+filename+" line="+str(tmpind)
+                    filedict[key1][sp[1]] = 1
+                else:
+                    filedict[key1][sp[1]] += 1
             tmpind += 1
-            if tmpind % 500000 == 0:
+            if tmpind % 100000 == 0:
                 print "filename="+filename+" line="+str(tmpind)
             line = f.readline()
         f.close()
@@ -77,18 +72,19 @@ def main():
         for i in range(timespan.days+1):
             tmpdate = mindate+timedelta(i)
             if tmpdate in filedict[filekey].keys():      	
-                nzcount += filedict[filekey][tmpdate][0]
+                nzcount += filedict[filekey][tmpdate]
         if nzcount < 15:
             continue
         
-        fw = open("tsdatatypes\\"+sys.argv[1]+"\\"+filekey+".csv", "w")
+        fw = open("tsdata/"+sys.argv[1]+"/"+filekey+".csv", "w")
        
     	for i in range(timespan.days+1):
             tmpdate = mindate+timedelta(i)
             if tmpdate in filedict[filekey].keys():
-            	fw.write(date2str(tmpdate)+","+str(filedict[filekey][tmpdate])[1:-1]+"\n")
+            	fw.write(date2str(tmpdate)+","+str(filedict[filekey][tmpdate])+"\n")
+                nzcount += 1
             else:
-                fw.write(date2str(tmpdate)+","+"0,0,0,0,0,0"+"\n")
+                fw.write(date2str(tmpdate)+","+"0"+"\n")
         
         fw.close()
     
