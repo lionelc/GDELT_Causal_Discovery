@@ -1,6 +1,6 @@
 # Causal Discovery on GDELT data set
 
-This repository provides the source code and papers, which can generate reproducible causal discovery results over GDELT data (gdeltproject.org) as in the papers (accepted by IUCC-2020). All the source codes are made under the terms of [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html). 
+This repository provides the source code and papers, which can generate reproducible causal discovery results over GDELT data (gdeltproject.org) as in the paper accepted by IUCC-2020 conference. All the source codes are made under the terms of [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html). 
 
 
 ## Steps:
@@ -9,7 +9,7 @@ This repository provides the source code and papers, which can generate reproduc
 
 We use python for data preprocessing job with some speed gain, while R is used in causal discovery.
 
-a. Downloading the GDELT data sets as needed (modify the date range when you need a longer period of data. After 2014, the data size increases in a much quicker pace.)
+a. Downloading the GDELT data sets as needed (modify the date range when you need a longer period of data. After 2014, the data size increases in a much quicker pace and in more granular batches.)
 
 ```
 python src/preprocess/gdelt_download.py
@@ -43,4 +43,4 @@ Under src/R
 
 a. make sure there are nltk, bs4 in your local python
 
-b. under src/wikipedia_validation, there are scraper.py that obtains the text data, and other py prorams for calculating sentiment scores (some relying on corpuses from prior research, which are made available via [effectwordnet](https://mpqa.cs.pitt.edu/), [opiion-lexicon-English](https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/tree/master/data/opinion-lexicon-English) .
+b. under src/wikipedia_validation, there is scraper.py that obtains the Wikipedia text data, and other py programs for calculating sentiment scores (some relying on corpuses from previous research, which are made available via [effectwordnet](https://mpqa.cs.pitt.edu/), [opinion-lexicon-English](https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201106/tree/master/data/opinion-lexicon-English) .
