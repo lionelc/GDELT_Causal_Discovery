@@ -1,6 +1,6 @@
-# Causal Discovery on GDELT data set
+# Causal Discovery on international relations from GDELT
 
-This repository provides the source code and papers, which can generate reproducible causal discovery results over GDELT data (gdeltproject.org) as in the paper accepted by IUCC-2020 conference. All the source codes are made under the terms of [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html). 
+This repository provides the source code and papers, which can generate reproducible causal discovery results over GDELT data (gdeltproject.org) as in the paper accepted by IUCC-2020 conference. All the source codes are made under the terms of [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html), and the copyright of the published paper belongs to the publisher. 
 
 
 ## Steps:
